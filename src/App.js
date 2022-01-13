@@ -19,6 +19,7 @@ function App() {
     },
   });
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(async () => {
     setUser(await getUser());
   }, [setUser]);
